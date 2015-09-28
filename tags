@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DataBaseUtil	DataBaseUtil.class.php	/^class DataBaseUtil{$/;"	c
+connect	DataBaseUtil.class.php	/^	public  function connect(){$/;"	f
+db	callback.php	/^$db = new DataBaseUtil();$/;"	v
+link	DataBaseUtil.class.php	/^		$this->link = mysql_connect('localhost', 'root', 'larry-andy') or die("数据库连接失败");$/;"	v
+link	DataBaseUtil.class.php	/^	private static $link = null;$/;"	v
+query	DataBaseUtil.class.php	/^	public function query($sql){$/;"	f
+result	callback.php	/^$result = $db->query("select * from user;");$/;"	v
+update	DataBaseUtil.class.php	/^	public function update($sql){$/;"	f

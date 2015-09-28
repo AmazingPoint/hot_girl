@@ -1,0 +1,27 @@
+数据库设计：
+
+一、用户系统
+	-更改较少的字段
+	（userid, name, sex, age, tall, provence, city, intrest, intor, is_married, acdm, job, earns, has_car, has_house, about_sex, about_love, phonenumber, qq, wechat, like_own_parts, level, create_time, is_active）
+
+二、说说和相册
+	-用户的说说
+	(user, picture, content,  is_public, price, create_time)
+
+三、用户关注
+	(id, from_user_id, to_user_id, rel_type, create_time)
+
+四、浏览记录
+	(id, from_user_id, to_user_id, create_time)
+
+五、用户私信
+	(id, from_user_id, to_user_id, message)
+
+六、应用信息
+	(app_name, app_version, app_down_url)
+
+七、礼物信息
+	-商品信息
+	(id, name, price, create_time)
+	-记录记录
+	(id, from_user_id, to_user_id, ceate_time)
